@@ -1,0 +1,14 @@
+{
+  "name": "lab7me",
+  "version": "1.0.0",
+  "description": "Demo creating an express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Ovie Enamuotor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
