@@ -2,8 +2,6 @@
 
 This project is a **RESTful API** built with **Express.js** and **Node.js** that allows users to interact with a joke collection. The API supports CRUD operations and integrates with an external programming joke API to fetch jokes from a third-party source.
 
-It’s designed to demonstrate core backend development concepts such as routing, middleware, JSON-based data persistence, and working with external APIs using Node’s `https` module.
-
 ---
 
 
