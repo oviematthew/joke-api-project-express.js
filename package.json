@@ -1,9 +1,10 @@
 {
-  "name": "lab7me",
+  "name": "jokes-app",
   "version": "1.0.0",
-  "description": "Demo creating an express app",
+  "description": "Jokes API Project using Express.js and Node.js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Ovie Enamuotor",
