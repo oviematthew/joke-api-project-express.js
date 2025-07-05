@@ -32,14 +32,17 @@ This project serves as a practical example of building a backend API with Expres
 
 ---
 
-## ✨ Features
+## 🚀 API Endpoints
 
-- 🔹 **Get All Jokes** – Retrieve the full list of jokes stored in `jokes.json`
-- 🔹 **Get Joke by ID** – Fetch a specific joke using its unique ID
-- 🔹 **Add New Joke** – Submit a new joke using POST request with JSON body
-- 🔹 **Update Joke** – Modify an existing joke by ID
-- 🔹 **Delete Joke** – Remove a joke from the collection
-- 🔹 **Fetch Programming Jokes** – Use external API (`jokeapi.dev`) to fetch programming-related jokes
+| HTTP Method | Endpoint                | Description                                |
+|-------------|-------------------------|--------------------------------------------|
+| GET         | `/api/jokes`            | Retrieve the full list of all jokes        |
+| GET         | `/api/jokes/:id`        | Retrieve a specific joke by its unique ID  |
+| POST        | `/api/jokes`            | Add a new joke (send JSON with joke data) |
+| PUT         | `/api/jokes/:id`        | Update an existing joke by ID               |
+| DELETE      | `/api/jokes/:id`        | Delete a joke by ID                         |
+| GET         | `/api/jokes/programming/list?amount=n` | Fetch `n` programming jokes from external API (default 3) |
+
 
 ---
 
