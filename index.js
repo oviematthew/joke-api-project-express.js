@@ -8,7 +8,11 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Jokes API!");
+  res.send(`
+      <h1>Welcome to the Jokes API 🎉</h1>
+      <p>Visit <a href="/api/jokes">/api/jokes</a> to get all jokes.</p>
+      <p>See full documentation on <a href="https://github.com/oviematthew/joke-api-project-express.js" target="_blank">GitHub</a>.</p>
+    `);
 });
 
 app.use("/api/jokes", jokesRouter);
