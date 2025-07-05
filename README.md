@@ -6,19 +6,8 @@ It’s designed to demonstrate core backend development concepts such as routing
 
 ---
 
-## 📌 Purpose
 
-This project serves as a practical example of building a backend API with Express.js and Node.js. It is suitable for:
-
-- Portfolio showcase
-- Learning basic server setup and routing
-- Exploring file-based JSON storage
-- Practicing integration with external APIs
-- Demonstrating full CRUD functionality
-
----
-
-## 🚀 API Endpoints
+## 🌐 API Endpoints
 
 | HTTP Method | Endpoint                | Description                                |
 |-------------|-------------------------|--------------------------------------------|
