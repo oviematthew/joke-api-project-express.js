@@ -1,4 +1,4 @@
-# 🎉 Joke API Project – Express.js + Node.js
+# 🃏 Joke API Project – Express.js + Node.js
 
 This project is a **RESTful API** built using **Express.js** and **Node.js** that allows users to manage and interact with a collection of jokes. The API provides full **CRUD** functionality and also integrates with an external API to fetch fresh programming jokes from [JokeAPI.dev](https://jokeapi.dev/).
 
