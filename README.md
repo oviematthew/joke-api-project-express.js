@@ -57,6 +57,3 @@ This project serves as a practical example of building a backend API with Expres
 | **fs** (File System) | For reading/writing jokes.json file      |
 | **CORS** (optional) | Enable requests from frontend clients      |
 
----
-
-## 📁 Project Structure
