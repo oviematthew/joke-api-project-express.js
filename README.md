@@ -18,20 +18,6 @@ This project serves as a practical example of building a backend API with Expres
 
 ---
 
-## 📚 Concepts Demonstrated
-
-- Express.js routing and middleware
-- RESTful API design
-- HTTP methods: GET, POST, PUT, DELETE
-- Request validation middleware
-- File system operations in Node.js
-- JSON parsing and data persistence
-- External API consumption using `https` module
-- Clean project structure for maintainability
-- Optional: Deploying to Render or Railway for free hosting
-
----
-
 ## 🚀 API Endpoints
 
 | HTTP Method | Endpoint                | Description                                |
